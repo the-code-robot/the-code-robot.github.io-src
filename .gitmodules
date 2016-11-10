@@ -1,6 +1,3 @@
 [submodule "output"]
 	path = output
-	url = git@github.com:the-code-robot/the-code-robot.github.io.git
-[submodule "output2"]
-	path = output2
-	url = git@github.com:the-code-robot/the-code-robot.github.io.git
+	url = git@github.com:the-code-robot/the-code-robot.github.io
