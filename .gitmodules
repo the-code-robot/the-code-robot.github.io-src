@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:the-code-robot/the-code-robot.github.io
