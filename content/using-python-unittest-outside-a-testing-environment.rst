@@ -5,9 +5,6 @@ Using Python unittest outside a testing environment
 :tags: outside the box, python, testing, unittest
 :slug: using-python-unittest-outside-a-testing-environment
 
-.. raw:: html
-
-   <p>
 
 Test frameworks are not just for testing code during development and
 deployment.
@@ -21,58 +18,26 @@ The code example below presents a toy example of a test case, which is
 then exercised by your application process. The outcome is a test result
 object which you can query and report on.
 
-::
+.. code:: python
 
-    import unittestclass TestMe(unittest.TestCase):    def test_this(self):        self.assertTrue(False)    def test_that(self):        self.assertTrue(True)loader = unittest.TestLoader()suite = loader.loadTestsFromTestCase(TestMe)result = unittest.TestResult()suite.run(result) # run actually returns result as well as populating itprint result
+  import unittest
+  class TestMe(unittest.TestCase):
 
-::
+      def test_this(self):
+          self.assertTrue(False)
 
-     
+      def test_that(self):
+          self.assertTrue(True)loader = unittest.TestLoader()
 
-::
+  suite = loader.loadTestsFromTestCase(TestMe)
+  result = unittest.TestResult()
+  suite.run(result) # run actually returns result as well as populating it
+  print result
 
-.. raw:: html
 
-   <div class="output_wrapper">
-
-.. raw:: html
-
-   <div class="output">
-
-.. raw:: html
-
-   <div class="output_area">
-
-.. raw:: html
-
-   <div class="output_subarea output_text output_stream output_stdout">
-
-::
+.. code:: python
 
     <unittest .result.testresult="" errors="0" failures="1" run="2">
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-
-The variable 'result' is an instance of unittest.TestResult() and has
-a rich set of attributes and methods as `documented
+The variable 'result' is an instance of unittest.TestResult() and has a rich set of attributes and methods as `documented
 here <https://docs.python.org/2/library/unittest.html#unittest.TestResult>`__.
-
-.. raw:: html
-
-   </p>
-
