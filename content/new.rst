@@ -5,4 +5,4 @@ New File
 :tags: security, vim, vim-plug, vundle
 :slug: here-be-newness
 
-Bananas are for wimps.
+Apples are for wimps.

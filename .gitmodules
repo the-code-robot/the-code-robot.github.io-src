@@ -1,3 +1,3 @@
-[submodule "output"]
-	path = output
+[submodule "livesite"]
+	path = livesite
 	url = git@github.com:the-code-robot/the-code-robot.github.io
