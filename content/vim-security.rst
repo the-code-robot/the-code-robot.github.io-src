@@ -5,7 +5,7 @@ Vim security
 :tags: security, vim, vim-plug, vundle
 :slug: vim-security
 
-| Just read https://glyph.twistedmatrix.com/2015/11/editor-malware.html
+| CRAZY: Just read https://glyph.twistedmatrix.com/2015/11/editor-malware.html
 
 and https://jordaneldredge.com/blog/why-i-switched-from-vundle-to-plug/
 which both discuss some issues about text editor security.
