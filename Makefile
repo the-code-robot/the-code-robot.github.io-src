@@ -62,6 +62,8 @@ help:
 	@echo '                                                                          '
 
 html:
+	# clean output dir 
+	rm $$(find $(OUTPUTDIR) -not -path '*/\.*') || true
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
