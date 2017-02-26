@@ -14,4 +14,10 @@ Overview
 --------
 In microservices architecture, it is important to document and publish the public API. Swagger provides a framework to help you. Introducing Swagger means there are (at least) two descriptions of the API: the Swagger specification and the definition implicit in the implementation of your service. This gives a choice: get your code correct and then create a Swagger specification or create your Swagger definition and then write your code to match. I have tried each method concluding the latter works better for me. Your mileage may vary.
 
-
+The steps are:
+1. Write Swagger specification
+2. Validate Swagger specification
+3. Write Swagger tests
+4. Run Swagger tests.
+5. Write service implementation.
+6. Iterate until happy.
