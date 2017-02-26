@@ -6,6 +6,12 @@ Swagger testing in Python
 :tags: testing, swagger, openapi, python, microservices
 :category: microservices
 
-There will be something here
-----------------------------
-When working on a project it seems wrong to spend more time on the plumbing around the project than on the project application code. My definition of plumbing includes anything written in <insert name of preferred shell>.
+TL;DR
+-----
+OpenAPI/Swagger can be the governing document for your microservice. Tools are now available to support the workflow: create swagger yaml, validate yaml, create swagger implementation tests, create microservice implemention.
+
+Overview
+--------
+In microservices architecture, it is important to document and publish the public API. Swagger provides a framework to help you. Introducing Swagger means there are (at least) two descriptions of the API: the Swagger specification and the definition implicit in the implementation of your service. This gives a choice: get your code correct and then create a Swagger specification or create your Swagger definition and then write your code to match. I have tried each method concluding the latter works better for me. Your mileage may vary.
+
+
