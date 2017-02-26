@@ -65,6 +65,7 @@ html:
 	# clean output dir 
 	rm $$(find $(OUTPUTDIR) -not -path '*/\.*') || true
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	echo "coderobot.downley.net" > $(OUTPUTDIR)/CNAME
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

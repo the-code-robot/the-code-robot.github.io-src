@@ -4,6 +4,7 @@ Android Studio up and running
 :author: Robin Abbi (noreply@blogger.com)
 :tags: android, android studio, ant, gradle, zipzipbooks
 :slug: android-studio-up-and-running
+:category: android
 
 My standard development environment for native Android development has
 been Vim and Ant.

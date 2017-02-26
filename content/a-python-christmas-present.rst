@@ -2,8 +2,9 @@ A Python Christmas present
 ##########################
 :date: 2015-12-22 00:33
 :author: Robin Abbi (noreply@blogger.com)
-:tags: nose, rednose, test driven development, testing
+:tags: nose, rednose, test driven development, testing, python
 :slug: a-python-christmas-present
+:category: tooling
 
 | Nose is my current Python testing framework of choice.
 

@@ -3,6 +3,7 @@ Use Python instead of Bash for DevOps
 :date: 2017-01-01 10:39
 :author: Robin Abbi (robin.abbi@downley.net)
 :slug: use-python-instead-of-bash-for-devops
+:tags: devops
 
 Maximize resources on the application
 -------------------------------------

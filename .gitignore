@@ -1,3 +1,5 @@
+output/
+livesite/
 scratch/
 *.swp
 .svn
