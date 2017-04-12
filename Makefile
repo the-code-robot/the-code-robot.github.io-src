@@ -68,9 +68,11 @@ html:
 	echo "coderobot.downley.net" > $(OUTPUTDIR)/CNAME
 	cd $(OUTPUTDIR)
 	git add --all ./
+	pwd
 	git commit -m "Update website."
 	git push
 	cd ..
+	echo pwd
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
