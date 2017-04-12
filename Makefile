@@ -72,7 +72,7 @@ html:
 	git commit -m "Update website."
 	git push
 	cd ..
-	echo pwd
+	pwd
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
