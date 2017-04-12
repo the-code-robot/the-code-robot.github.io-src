@@ -67,7 +67,7 @@ html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	echo "coderobot.downley.net" > $(OUTPUTDIR)/CNAME
 	cd $(OUTPUTDIR)
-	git add --all .
+	git add --all ./
 	git commit -m "Update website."
 	git push
 	cd ..
