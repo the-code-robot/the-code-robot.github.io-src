@@ -6,7 +6,7 @@ Probability in business
 :slug: probability-in-business
 
 As someone who has put together quite a few business plans over the
-years, this short (4 minute) video from Prof Sam Savage struck me as
+years, `this short (4 minute) video <https://www.youtube.com/watch?v=j3zKgAetG5k>`_ from Prof Sam Savage struck me as
 quite insightful.
 For me it highlights the difference between those of us with a
 knowledge of the theory of probability and those who have really thought

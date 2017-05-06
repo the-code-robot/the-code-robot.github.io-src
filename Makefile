@@ -66,15 +66,7 @@ html:
 	rm $$(find $(OUTPUTDIR) -not -path '*/\.*') || true
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	echo "coderobot.downley.net" > $(OUTPUTDIR)/CNAME
-	echo $(SHELL)
-	pwd
-	cd $(OUTPUTDIR)
-	pwd
-	git add --all ./
-	git commit -m "Update website."
-	git push
-	cd ..
-	pwd
+	cd $(OUTPUTDIR); git add --all ./; git commit -m "Update website.";git push
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
